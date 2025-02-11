@@ -1,2 +1,4 @@
-# UltraEdit_CSS_clone
-This is just a clone of the ultraedit website
+# UltraEdit-CSS-clone
+Basic website clone of ultraEdit website for just practice
+<br>
+Author: Amey Kamde

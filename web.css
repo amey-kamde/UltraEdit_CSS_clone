@@ -1,0 +1,201 @@
+.logo img {
+    width: 150px;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid; */
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 0 15px;
+    align-items: center;
+}
+
+nav ul li {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    margin: 70px;
+    font-family: sans-serif;
+}
+
+.first div {
+    font-size: 40px;
+}
+
+.try {
+    width: 960px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.download {
+    background-color: #00b6d1;
+    border: 0px;
+    border-radius: 6px;
+    padding: 15px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+.download a {
+    text-decoration: none;
+    color: white;
+}
+
+.second {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ultdown {
+    font-size: 30px;
+}
+
+.second:nth-child(2) {
+    font-size: 16px;
+}
+
+
+.grid {
+    width: 70vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.grid .item {
+    background-color: #f9f9f9;
+    border-radius: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.lang {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 60px;
+
+}
+
+.blue {
+    background-color: #00b6d1;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.green {
+    background-color: #5cb85c;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.third {
+    background-color: #222222;
+    color: white;
+    margin: 0px;
+
+}
+
+.news {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.join {
+    padding-top: 62px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 45px;
+}
+
+.join2 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.signup {
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.signup input {
+    margin: 20px;
+    height: 30px;
+
+}
+
+.signup div {
+    color: #00B6D1;
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    margin-inline: 20px;
+}
+
+.signup p {
+    margin-bottom: -10px;
+}
+
+.signup button {
+    border: 0px;
+    background-color: #00B6D1;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: 700;
+    cursor: pointer;
+    padding-inline: 60px;
+    margin-bottom: 35px;
+}
+
+.exe {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+
+    text-align: left;
+    margin-left: 350px;
+    height: 40vh;
+}
+
+.exe h3 {
+    font-size: 25px;
+}
